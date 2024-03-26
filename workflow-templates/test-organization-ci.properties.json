@@ -1,5 +1,5 @@
 {
-    "name": "Test Organization Workflow",
-    "description": "Test Organization CI starter workflow.",
+    "name": "RCG Gradle Openshift",
+    "description": "DevSecOps Workflow to build/deploy an application to DEV/TST Openshift environments using Gradle",
     "iconName": "example-icon"
 }
