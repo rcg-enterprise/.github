@@ -1,1 +1,5 @@
-placeholder
+{
+    "name": "RCG Angular Openshift",
+    "description": "DevSecOps Workflow to build/deploy an application to DEV/TST Openshift environments using Angular",
+    "iconName": "example-icon"
+}
