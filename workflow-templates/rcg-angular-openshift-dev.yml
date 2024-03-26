@@ -1,0 +1,17 @@
+name: CI/CD Workflow
+
+on:
+  push:
+    branches: [ $default-branch ]
+  pull_request:
+    branches: [ $default-branch ]
+
+jobs:
+  ci-cd:
+    uses: rcg-enterprise/DevOps-Pipelines/.github/workflows/dev-cicd-angular.yml@master
+    secrets: inherit
+    with:
+      image: change-me
+      target_cluster: change-me
+      app_name: change-me
+      destination_image: change-me
