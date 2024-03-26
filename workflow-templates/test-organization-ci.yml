@@ -7,11 +7,8 @@ on:
     branches: [ $default-branch ]
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
-
-    steps:
-      - uses: actions/checkout@v4
-
-      - name: Run a one-line script
-        run: echo Hello from Octo Organization
+  ci-cd:
+    uses: rcg-enterprise/DevOps-Pipelines/.github/workflows/dev-cicd-gradle.yml@master
+    secrets: inherit
+    with:
+      image: change-me
