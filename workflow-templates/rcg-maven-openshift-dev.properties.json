@@ -1,5 +1,5 @@
 {
     "name": "RCG Maven Openshift",
     "description": "DevSecOps Workflow to build/deploy an application to DEV/TST Openshift environments using Maven",
-    "iconName": "example-icon"
+    "iconName": "openshift"
 }
