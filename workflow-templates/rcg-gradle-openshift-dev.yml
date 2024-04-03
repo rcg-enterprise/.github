@@ -14,3 +14,4 @@ jobs:
       target_cluster: change-me
       app_name: change-me
       destination_image: change-me
+      path_context: change-me
