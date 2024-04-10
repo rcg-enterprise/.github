@@ -10,6 +10,7 @@ jobs:
     secrets: inherit
     with:
       image: change-me
+      path_context:: change-me
       target_cluster: change-me
       app_name: change-me
       destination_image: change-me
