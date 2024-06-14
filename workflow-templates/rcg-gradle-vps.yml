@@ -1,0 +1,12 @@
+name: CI/CD Workflow - VPS
+
+on:
+  push:
+    branches: [ $default-branch ]
+
+jobs:
+  ci-cd:
+    uses: rcg-enterprise/DevOps-Pipelines/.github/workflows/vps-ci-gradle.yml@master
+    secrets: inherit
+    with:
+      app_name: change-me
