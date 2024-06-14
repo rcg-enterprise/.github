@@ -1,0 +1,5 @@
+{
+    "name": "RCG Gradle - VPS",
+    "description": "DevSecOps Workflow to build/deploy an application",
+    "iconName": "openshift"
+}
